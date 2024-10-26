@@ -1,0 +1,72 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div {
+    margin: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:beige;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 0 3px 6px;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+input {
+    padding: 8px;
+    width: calc(100% - 110px);
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 1px;
+    font-size: 15px;
+}
+button {
+    padding: 8px 16px;
+    background-color: brown;
+    color: white;
+    border-radius: 1px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+}
+ul {
+    padding: 0;
+}
+li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+.edit, .delete {
+    background-color: blue;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.edit:hover {
+    background-color: black;
+}
+.delete {
+    background-color: red;
+}
+.delete:hover {
+    background-color: black;
+}
